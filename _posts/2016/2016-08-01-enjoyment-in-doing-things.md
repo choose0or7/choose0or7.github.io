@@ -4,6 +4,7 @@ title: "Enjoyment in doing things"
 date: "2016-08-01 16:26"
 tags: [life]
 bias: "做事的乐趣"
+category: blog
 ---
 
 
