@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<div class="page-content">
+  <div class="content{% if page.photo_url %} photo-post{% endif %}">
+    <div class="container">
+      {% unless page.title_hidden %}
+        <h1>
+          {% if page.bias %}
+            {{ page.bias }}
+          {% else %}
+            {{ page.title }}
+          {% endif %}
+        </h1>
+      {% endunless %}
+      <!-- <div
+        class="fb-like"
+        data-share="true"
+        data-width="450"
+        data-show-faces="true">
+      </div> -->
+      <div class="post-body">
+        {{ content }}
+      </div>
+
+      <info datetime="{{ page.date | date: "%Y-%m-%d" }}">
+        Last updated at {{ page.date | date: "%b %d, %Y" }}
+      </info>
+    </div>
+  </div>
+</div>
