@@ -4,6 +4,7 @@ title: "Q and A site"
 date: "2016-07-25 18:46"
 bias: "FAQ page based on Salesforce Knowledge"
 category: work
+list_hidden: true
 ---
 
 FAQ page via salesforce public web site where customers can access to our client company's public salesforce knowledge base.
