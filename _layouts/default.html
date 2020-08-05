@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ page.lang }}">
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -112,6 +112,10 @@
     {% include header.html %}
 
     {{ content }}
+    
+    <!-- Footer -->
+    {% include footer.html %}
+    <!-- /Footer -->
 
     <!-- JavaScript -->
     <script src="/js/jquery-1.10.2.js"></script>

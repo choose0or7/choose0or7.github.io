@@ -1,0 +1,14 @@
+
+{% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+{% for post in posts %}
+    <li>
+    <a href="{{ post.url }}" class="{{ post.lang }} socIcon color-primary linear">{{ post.lang }}</a>
+    </li>
+{% endfor %}
+
+{% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+{% for page in pages %}
+    <li>
+    <a href="{{ page.url }}" class="{{ page.lang }} socIcon color-primary linear">{{ page.lang }}</a>
+    </li>
+{% endfor %}

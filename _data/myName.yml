@@ -1,3 +1,9 @@
-- en: Yu Shengbo
-  zh: 郁 盛波
-  jp: ユ　シェンボ
+en: 
+  - label: Yu Shengbo
+    url: "/"
+zh:
+  - label: 郁 盛波
+    url: "/zh"
+ja:
+  - label: ユ　シェンボ
+    url: "/ja"

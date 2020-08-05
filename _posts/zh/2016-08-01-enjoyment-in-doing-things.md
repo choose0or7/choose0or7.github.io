@@ -1,6 +1,8 @@
 ---
 layout: "post"
-title: "Enjoyment in doing things"
+lang: zh
+ref: 2016-08-01-enjoyment-in-doing-things
+title: Enjoyment in doing things
 date: "2016-08-01 16:26"
 tags: [life]
 bias: "做事的乐趣"
