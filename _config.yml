@@ -1,3 +1,27 @@
 permalink: pretty
 markdown: kramdown
 excerpt_separator: <!--more-->
+
+# default value of front matter with scope
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      nav: "Blog"
+  -
+    scope:
+      path: "_posts/en"
+    values:
+      lang: en
+  -
+    scope:
+      path: "_posts/zh"
+    values:
+      lang: zh
+  -
+    scope:
+      path: "_posts/ja"
+    values:
+      lang: ja

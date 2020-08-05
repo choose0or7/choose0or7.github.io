@@ -810,3 +810,7 @@ margin-top: 10px;
     }
 
 }
+
+.en:lang(en), .ja:lang(ja), .zh:lang(zh){
+  font-weight: bold;
+}
