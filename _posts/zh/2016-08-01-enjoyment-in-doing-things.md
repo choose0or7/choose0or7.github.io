@@ -2,9 +2,9 @@
 layout: "post"
 lang: zh
 ref: 2016-08-01-enjoyment-in-doing-things
-title: Enjoyment in doing things
+title: "做事的乐趣"
 date: "2016-08-01 16:26"
-tags: [life]
+tags: [thoughts]
 bias: "做事的乐趣"
 category: blog
 excerpt_separator: <!--more-->
