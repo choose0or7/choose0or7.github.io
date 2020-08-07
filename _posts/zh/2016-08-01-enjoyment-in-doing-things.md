@@ -3,6 +3,7 @@ layout: "post"
 lang: zh
 ref: 2016-08-01-enjoyment-in-doing-things
 title: "做事的乐趣"
+description: ""
 date: "2016-08-01 16:26"
 tags: [thoughts]
 bias: "做事的乐趣"
