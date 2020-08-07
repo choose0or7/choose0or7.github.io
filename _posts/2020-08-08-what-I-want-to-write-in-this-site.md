@@ -1,10 +1,9 @@
 ---
 layout: post
 title: "What I want to write in this site"
-description: ""
 tags: [thoughts]
 ---
-What I want to write in this site also means what you are gonna read here. I used to write my moods or emotions in blogs. Then my friends may read it and kindly comment to me. But finally that kind of blogs always have a short life and no one gives a shit after two weeks. That is not what I want to do in this site.
+What I want to write in this site also means what you are gonna read here. I used to write my moods or emotions in blogs. Then my friends may read it and kindly comment to me. But finally that kind of blogs always have a short life and no one gives a shit after two weeks. That is not what I want to do in this site.<!--more-->
 
 Of course, we all have mood. we see, we listen, we feel this world and each other. It's so normal and sometimes makes the world so diverse and colorful. I have no complaint on it at all. The only fact I realised is that I want to do something matters, something helpful for others.
 
