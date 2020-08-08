@@ -159,3 +159,7 @@ img {
   color: $white;
   background-color: $gray-darkest;
 }
+img[src*='#center'] { 
+  display: block;
+  margin: auto;
+}
