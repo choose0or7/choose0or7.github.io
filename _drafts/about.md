@@ -1,4 +1,9 @@
 ---
+layout: post
+title: "About"
+description: "A Salesforce consultant and developer since 2013, a blogger since recently, alive since 1991. 
+I'm reducing social network using. So this site may be the best place for you to find me on the web."
+tags: [web, jekyll]
 published: false
 ---
 # About
