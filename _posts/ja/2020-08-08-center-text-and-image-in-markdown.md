@@ -33,13 +33,9 @@ Markdown で文書書くとき、あまり HTML タグをいっぱい書きた�
 それで終わりです。例は下記です：
 
 {% highlight markdown %}
-こんにちは！
-
 {: align="center"}
 ![my image](/img/myImage.jpg)
 画像タイトル
-
-終わり。
 {% endhighlight %}
 
 {: align="center"}
