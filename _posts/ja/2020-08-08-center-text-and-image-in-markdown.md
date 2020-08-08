@@ -2,7 +2,7 @@
 layout: post
 title: "Markdown で文字と画像を中央寄せ"
 description: "githubpages を利用しているなら、これは一番簡単な書き方！"
-tags: [Markdown, jekyll]
+tags: [markdown, jekyll]
 ---
 
 下記文書を Markdown で文書を書く場合、画像を中央に寄せたいなと思ったら、どうすればいいんですか？
