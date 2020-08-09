@@ -1,20 +1,34 @@
----
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom" xmlns:dc="https://purl.org/dc/elements/1.1/">
   <channel>
-    <title>{{ site.name | xml_escape }}</title>
-    <description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
-    <link>{{ site.url }}</link>
-    <atom:link href="{{ page.path | absolute_url }}" rel="self" type="application/rss+xml" />
-    {% for post in site.posts limit:10 %}
+    <title>choose0or7</title>
+    <description></description>
+    <link>https://choose0or7.github.io</link>
+    <atom:link href="https://choose0or7.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.description | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | absolute_url }}</link>
-        <guid isPermaLink="true">{{ post.url | absolute_url }}</guid>
+        <title>What I want to write in this site</title>
+        <description></description>
+        <pubDate>Sat, 08 Aug 2020 00:00:00 +0900</pubDate>
+        <link>https://choose0or7.github.io/posts/what-i-want-to-write-in-this-site</link>
+        <guid isPermaLink="true">https://choose0or7.github.io/posts/what-i-want-to-write-in-this-site</guid>
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>你好，世界!</title>
+        <description></description>
+        <pubDate>Wed, 05 Aug 2020 00:00:00 +0900</pubDate>
+        <link>https://choose0or7.github.io/posts/hello-zh</link>
+        <guid isPermaLink="true">https://choose0or7.github.io/posts/hello-zh</guid>
+      </item>
+    
+      <item>
+        <title>做事的乐趣</title>
+        <description></description>
+        <pubDate>Mon, 01 Aug 2016 16:26:00 +0900</pubDate>
+        <link>https://choose0or7.github.io/posts/enjoyment-in-doing-things</link>
+        <guid isPermaLink="true">https://choose0or7.github.io/posts/enjoyment-in-doing-things</guid>
+      </item>
+    
   </channel>
 </rss>
