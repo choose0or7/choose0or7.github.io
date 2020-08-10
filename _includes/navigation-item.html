@@ -1,0 +1,12 @@
+<li>
+    {% capture lang %}
+        {% if page.lang != 'en' %}
+            /{{ page.lang }}/
+        {% else %}{
+            /
+        {% endif %}
+    {% endcapture %} 
+    <a href="{{ lang }}{{ include.url }}" title="{{ include.title }}">
+        {% include svg-icon.html icon=include.url %}
+    </a>
+</li>

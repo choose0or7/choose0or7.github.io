@@ -1,0 +1,48 @@
+en:
+  en:
+    label: en
+    title: English
+  zh:
+    label: zh
+    title: Chinese
+  ja:
+    label: ja
+    title: Japanese
+  now:
+    url: /now/
+  about:
+    url: /about/
+  lab:
+    url: /lab/
+zh:
+  en:
+    label: 英
+    title: 英语
+  zh:
+    label: 中
+    title: 中文
+  ja:
+    label: 日
+    title: 日语
+  now:
+    url: /zh/now/
+  about:
+    url: /zh/about/
+  lab:
+    url: /zh/lab/
+ja:
+  en:
+    label: 英
+    title: 英語
+  zh:
+    label: 中
+    title: 中国語
+  ja:
+    label: 日
+    title: 日本語
+  now:
+    url: /ja/now/
+  about:
+    url: /ja/about/
+  lab:
+    url: /ja/lab/
