@@ -1,11 +1,9 @@
 ---
-layout: "post"
-lang: zh
-ref: 2016-08-01-enjoyment-in-doing-things
+layout: post
+# lang: zh
 title: "做事的乐趣"
-date: "2016-08-01 16:26"
+date: 2016-08-01 16:26:07 +0900
 tags: [thoughts]
-bias: "做事的乐趣"
 category: blog
 excerpt_separator: <!--more-->
 ---

@@ -1,6 +1,6 @@
 ---
 layout: page
-lang: en
+lang: zh
 title: "About"
 description: "An Salesforce consultant and developer since 2013, a blogger since recently, alive since 1991."
 ---

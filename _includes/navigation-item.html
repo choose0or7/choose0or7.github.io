@@ -1,0 +1,13 @@
+
+{% if site.data.translation[page.lang][include.menu].url contains "http" %}
+  {% assign url = site.data.translation[page.lang][include.menu].url %}
+{% else %}
+  {% assign url = site.data.translation[page.lang][include.menu].url | relative_url %}
+{% endif %}
+
+
+
+
+<!-- <a href="{{ 'now' | relative_url }}" title="Now">
+  {% include svg-icon.html icon="now" %}
+</a> -->
