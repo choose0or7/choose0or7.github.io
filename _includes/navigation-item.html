@@ -1,12 +1,13 @@
-<li>
-    {% capture lang %}
-        {% if page.lang != 'en' %}
-            /{{ page.lang }}/
-        {% else %}{
-            /
-        {% endif %}
-    {% endcapture %} 
-    <a href="{{ lang }}{{ include.url }}" title="{{ include.title }}">
-        {% include svg-icon.html icon=include.url %}
-    </a>
-</li>
+
+{% if site.data.translation[page.lang][include.menu].url contains "http" %}
+  {% assign url = site.data.translation[page.lang][include.menu].url %}
+{% else %}
+  {% assign url = site.data.translation[page.lang][include.menu].url | relative_url %}
+{% endif %}
+
+
+
+
+<!-- <a href="{{ 'now' | relative_url }}" title="Now">
+  {% include svg-icon.html icon="now" %}
+</a> -->

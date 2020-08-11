@@ -1,6 +1,6 @@
 ---
 layout: page
-lang: en
+lang: ja
 title: "What I’m doing now"
 description: "What I’m doing now"
 ---
