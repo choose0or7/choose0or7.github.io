@@ -68,6 +68,15 @@
   }
 }
 
+.current {
+  
+  svg {
+    width: 16px;
+    height: 16px;
+    fill: #d29d45;
+  }
+}
+
 @include breakpoint(extra-small) {
   .header-nav {
     text-align: center;
