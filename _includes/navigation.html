@@ -1,23 +1,31 @@
 <nav class="header-nav {% if site.scrollappear_enabled %}scrollappear{% endif %}">
+<<<<<<< HEAD
   <a href="{{ '/' | relative_url }}" class="header-logo" title="{{ site.name }}"></a>
+=======
+  {% include navigation-item.html menu="home" %}
+  <a href="{{ url }}" class="header-logo" title="{{ site.data.translation[page.lang].home.title }}"></a>
+>>>>>>> master
   <ul class="header-links">
     {% if site.now_enabled == true %}
       <li>
-        <a href="{{ 'now' | relative_url }}" title="Now">
+        {% include navigation-item.html menu="now" %}
+        <a href="{{ url }}" title="{{ site.data.translation[page.lang].now.title }}">
           {% include svg-icon.html icon="now" %}
         </a>
       </li>
     {% endif %}
     {% if site.about_enabled == true %}
       <li>
-        <a href="{{ 'about' | relative_url }}" title="About me">
+        {% include navigation-item.html menu="about" %}
+        <a href="{{ url }}" title="{{ site.data.translation[page.lang].about.title }}">
           {% include svg-icon.html icon="about" %}
         </a>
       </li>
     {% endif %}
     {% if site.lab_enabled == true %}
       <li>
-        <a href="{{ 'lab' | relative_url }}" title="Lab">
+        {% include navigation-item.html menu="lab" %}
+        <a href="{{ url }}" title="{{ site.data.translation[page.lang].lab.title }}">
           {% include svg-icon.html icon="lab" %}
         </a>
       </li>

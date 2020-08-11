@@ -1,0 +1,66 @@
+en:
+  en:
+    label: en
+    title: English
+  zh:
+    label: zh
+    title: Chinese
+  ja:
+    label: ja
+    title: Japanese
+  home:
+    url: /
+    title: choose0or7
+  now:
+    url: /now/
+    title: Now
+  about:
+    url: /about/
+    title: About me
+  lab:
+    url: /lab/
+    title: Lab
+zh:
+  en:
+    label: 英
+    title: 英语
+  zh:
+    label: 中
+    title: 中文
+  ja:
+    label: 日
+    title: 日语
+  home:
+    url: /zh/
+    title: 郁 盛波
+  now:
+    url: /zh/now/
+    title: 当下
+  about:
+    url: /zh/about/
+    title: 关于
+  lab:
+    url: /lab/zh/
+    title: 实验室
+ja:
+  en:
+    label: 英
+    title: 英語
+  zh:
+    label: 中
+    title: 中国語
+  ja:
+    label: 日
+    title: 日本語
+  home:
+    url: /ja/
+    title: ユ　シェンボ
+  now:
+    url: /ja/now/
+    title: 今
+  about:
+    url: /ja/about/
+    title: 私
+  lab:
+    url: /lab/ja/
+    title: ラボ

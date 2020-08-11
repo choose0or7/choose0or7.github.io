@@ -2,7 +2,7 @@
 
 blog_theme: light # Or use dark
 name: choose0or7
-paginate: 25
+# paginate: 5
 url: https://choose0or7.github.io
 
 
@@ -67,6 +67,36 @@ defaults:
       type: my_tags
     values:
       layout: articles_by_tag
+  -
+    scope:
+      path: "_posts"
+    values:
+      lang: en
+  -
+    scope:
+      path: "_drafts"
+    values:
+      lang: en
+  -
+    scope:
+      path: "zh/_posts"
+    values:
+      lang: zh
+  -
+    scope:
+      path: "zh/_drafts"
+    values:
+      lang: zh
+  -
+    scope:
+      path: "ja/_posts"
+    values:
+      lang: ja
+  -
+    scope:
+      path: "ja/_drafts"
+    values:
+      lang: ja
 exclude:
   - .travis.yml
   - bin/*
@@ -84,4 +114,6 @@ plugins:
   - jekyll-sitemap
   - jemoji
 paginate_path: /posts/page/:num/
-permalink: posts/:slug
+permalink: posts/:categories/:slug
+lang: en
+languages: ["en", "zh", "ja"]
