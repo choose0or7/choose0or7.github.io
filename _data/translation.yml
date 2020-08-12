@@ -3,10 +3,10 @@ en:
     label: en
     title: English
   zh:
-    label: zh
+    label: 中
     title: Chinese
   ja:
-    label: ja
+    label: 日
     title: Japanese
   home:
     url: /
@@ -22,7 +22,7 @@ en:
     title: Lab
 zh:
   en:
-    label: 英
+    label: en
     title: 英语
   zh:
     label: 中
@@ -44,7 +44,7 @@ zh:
     title: 实验室
 ja:
   en:
-    label: 英
+    label: en
     title: 英語
   zh:
     label: 中

@@ -1,6 +1,7 @@
 ---
 layout: post
-# lang: ja
+lang: ja
+ref: 2020-08-08-center-text-and-image-in-markdown
 title: "Markdown で文字と画像を中央寄せ"
 description: "githubpages を利用しているなら、これは一番簡単な書き方！"
 date: 2020-08-08 00:00:00 +0900

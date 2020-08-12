@@ -3,4 +3,23 @@
     You can know more about me at 
     <a href="{{ 'about' | relative_url }}" title="About">here</a>.
   </p> -->
+  <span class="footer-language">
+    {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+    {% for post in posts %}
+      {% if post.lang != page.lang %}
+        <a href="{{ post.url }}" class="{{ post.lang }}" title="{{ site.data.translation[page.lang][post.lang].title }}">
+          {{ site.data.translation[page.lang][post.lang].label }}
+        </a>
+      {% endif %}
+    {% endfor %}
+    
+    {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+    {% for item in pages %}
+      {% if item.lang != page.lang %}
+        <a href="{{ item.url }}" class="{{ item.lang }}" title="{{ site.data.translation[page.lang][item.lang].title }}">
+          {{ site.data.translation[page.lang][item.lang].label }}
+        </a>
+      {% endif %}
+    {% endfor %}
+  </span>
 </footer>

@@ -42,6 +42,12 @@ social:
   spotify: # Add your Spotify handle
   stackoverflow: # Add your Stack Overflow ID number
   steam: # Add your Steam handle
+info_footer:
+  date_enabled: true
+  minute_read_enabled: false
+  translation_enabled: false
+  tags_enabled: true
+
 
 
 # Important settings (change at own risk)
@@ -116,4 +122,4 @@ plugins:
 paginate_path: /posts/page/:num/
 permalink: posts/:categories/:slug
 lang: en
-languages: ["en", "zh", "ja"]
+languages: ["zh", "ja", "en"]
