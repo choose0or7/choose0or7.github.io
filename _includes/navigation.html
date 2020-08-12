@@ -1,6 +1,4 @@
 <nav class="header-nav {% if site.scrollappear_enabled %}scrollappear{% endif %}">
-  {% include navigation-item.html menu="home" %}
-  <a href="{{ url }}" class="header-logo" title="{{ site.data.translation[page.lang].home.title }}"></a>
   <ul class="header-links">
     {% if site.now_enabled == true %}
       <li>
@@ -195,6 +193,8 @@
       </li>
     {% endif %}
   </ul>
+  {% include navigation-item.html menu="home" %}
+  <a href="{{ url }}" class="header-logo" title="{{ site.data.translation[page.lang].home.title }}"></a>
 </nav>
 
 {% if site.tag_nav_enabled %}

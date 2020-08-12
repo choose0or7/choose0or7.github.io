@@ -1,6 +1,7 @@
 ---
 layout: post
-# lang: zh
+lang: zh
+ref: 2016-08-01-enjoyment-in-doing-things
 title: "做事的乐趣"
 date: 2016-08-01 16:26:07 +0900
 tags: [thoughts]

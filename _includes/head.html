@@ -31,6 +31,15 @@
 
   <link href="{{ 'feed.xml' | absolute_url }}" type="application/rss+xml" rel="alternate" title="{{ site.name }} Last 10 blog posts" />
 
+  {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+  {% for post in posts %}
+    <link rel="alternate" hreflang="{{ post.lang }}" href="{{ post.url }}" />
+  {% endfor %}
+  {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+  {% for page in pages %}
+    <link rel="alternate" hreflang="{{ page.lang }}" href="{{ page.url }}" />
+  {% endfor %}
+
   {% if site.local_fonts %}
     {% asset fonts.css %}
   {% endif %}
@@ -63,9 +72,10 @@
 
   {% endif %}
   <!-- comments for resources to be generate -->
-  <!-- {% include image.html path="favicon-light.ico" path-detail="favicon-light.ico" alt="choose0or7" %} -->
-  <!-- {% include image.html path="apple-touch-icon-light.png" path-detail="apple-touch-icon-light.png" alt="choose0or7" %} -->
-  <!-- {% include image.html path="favicon-dark.ico" path-detail="favicon-dark.ico" alt="choose0or7" %} -->
-  <!-- {% include image.html path="apple-touch-icon-dark.png" path-detail="apple-touch-icon-dark.png" alt="choose0or7" %} -->
-
+  <!-- <img src="{% asset favicon-light.ico @path %}" />
+  <img src="{% asset favicon-dark.ico @path %}" />
+  <img src="{% asset apple-touch-icon-light.png @path %}" />
+  <img src="{% asset apple-touch-icon-dark.png @path %}" />
+  <img src="{% asset navlogo-light.png @path %}" />
+  <img src="{% asset navlogo-dark.png @path %}" /> -->
 </head>
