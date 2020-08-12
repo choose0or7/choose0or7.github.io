@@ -40,7 +40,7 @@ zh:
     url: /zh/about
     title: 关于
   lab:
-    url: /lab/zh/
+    url: zh/lab
     title: 实验室
 ja:
   en:
@@ -62,5 +62,5 @@ ja:
     url: /ja/about
     title: 私
   lab:
-    url: /lab/ja/
+    url: ja/lab
     title: ラボ
