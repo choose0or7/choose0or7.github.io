@@ -1,6 +1,7 @@
 ---
 layout: post
 lang: en
+ref: 2020-08-10-what-I-want-to-write-in-this-site
 title: "What I want to write in this site"
 description: "Life is continuous learing and there are always more surprises waiting for you."
 date: 2020-08-10 23:54:00 +0900

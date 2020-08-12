@@ -3,26 +3,26 @@ en:
     label: en
     title: English
   zh:
-    label: zh
+    label: 中
     title: Chinese
   ja:
-    label: ja
+    label: 日
     title: Japanese
   home:
     url: /
     title: choose0or7
   now:
-    url: /now/
+    url: /now
     title: Now
   about:
-    url: /about/
+    url: /about
     title: About me
   lab:
     url: /lab/
     title: Lab
 zh:
   en:
-    label: 英
+    label: en
     title: 英语
   zh:
     label: 中
@@ -34,17 +34,17 @@ zh:
     url: /zh/
     title: 郁 盛波
   now:
-    url: /zh/now/
+    url: /zh/now
     title: 当下
   about:
-    url: /zh/about/
+    url: /zh/about
     title: 关于
   lab:
     url: /lab/zh/
     title: 实验室
 ja:
   en:
-    label: 英
+    label: en
     title: 英語
   zh:
     label: 中
@@ -56,10 +56,10 @@ ja:
     url: /ja/
     title: ユ　シェンボ
   now:
-    url: /ja/now/
+    url: /ja/now
     title: 今
   about:
-    url: /ja/about/
+    url: /ja/about
     title: 私
   lab:
     url: /lab/ja/

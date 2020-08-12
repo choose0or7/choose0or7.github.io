@@ -1,9 +1,12 @@
 <nav class="header-nav {% if site.scrollappear_enabled %}scrollappear{% endif %}">
 <<<<<<< HEAD
+<<<<<<< HEAD
   <a href="{{ '/' | relative_url }}" class="header-logo" title="{{ site.name }}"></a>
 =======
   {% include navigation-item.html menu="home" %}
   <a href="{{ url }}" class="header-logo" title="{{ site.data.translation[page.lang].home.title }}"></a>
+>>>>>>> master
+=======
 >>>>>>> master
   <ul class="header-links">
     {% if site.now_enabled == true %}
@@ -199,6 +202,8 @@
       </li>
     {% endif %}
   </ul>
+  {% include navigation-item.html menu="home" %}
+  <a href="{{ url }}" class="header-logo" title="{{ site.data.translation[page.lang].home.title }}"></a>
 </nav>
 
 {% if site.tag_nav_enabled %}

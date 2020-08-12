@@ -1,6 +1,7 @@
 ---
 layout: page
 lang: en
+ref: now
 title: "What I’m doing now"
 description: "What I’m doing now"
 ---

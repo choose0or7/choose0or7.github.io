@@ -31,6 +31,15 @@
 
   <link href="{{ 'feed.xml' | absolute_url }}" type="application/rss+xml" rel="alternate" title="{{ site.name }} Last 10 blog posts" />
 
+  {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+  {% for post in posts %}
+    <link rel="alternate" hreflang="{{ post.lang }}" href="{{ post.url }}" />
+  {% endfor %}
+  {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+  {% for page in pages %}
+    <link rel="alternate" hreflang="{{ page.lang }}" href="{{ page.url }}" />
+  {% endfor %}
+
   {% if site.local_fonts %}
     {% asset fonts.css %}
   {% endif %}
@@ -63,6 +72,7 @@
 
   {% endif %}
   <!-- comments for resources to be generate -->
+<<<<<<< HEAD
   <!-- <img src="{% asset favicon-light.ico @path %}" alt="favicon-light"> -->
   <!-- <img src="{% asset apple-touch-icon-light.png @path %}" alt="apple-touch-icon-light"> -->
   <!-- <img src="{% asset favicon-dark.ico @path %}" alt="favicon-dark"> -->
@@ -72,4 +82,12 @@
   <!-- <img src="{% asset favicon-light.ico @path %}" alt="favicon-light"> -->
   <!-- don't delete these comment. They are used to generate the assets -->
 
+=======
+  <!-- <img src="{% asset favicon-light.ico @path %}" />
+  <img src="{% asset favicon-dark.ico @path %}" />
+  <img src="{% asset apple-touch-icon-light.png @path %}" />
+  <img src="{% asset apple-touch-icon-dark.png @path %}" />
+  <img src="{% asset navlogo-light.png @path %}" />
+  <img src="{% asset navlogo-dark.png @path %}" /> -->
+>>>>>>> master
 </head>
