@@ -1,5 +1,7 @@
 ---
 layout: post
+lang: en
+ref: 2017-12-23-introducing-chalk
 title: "Introducing chalk"
 description: "Chalk is a high quality, completely customizable, performant and 100% free blog template for Jekyll."
 thumb_image: "documentation/sample-image.jpg"

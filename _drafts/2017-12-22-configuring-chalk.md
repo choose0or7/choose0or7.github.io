@@ -1,5 +1,7 @@
 ---
 layout: post
+lang: en
+ref: 2017-12-22-configuring-chalk
 title: "How to configure Chalk"
 description: "Learn more about the config file for Chalk and how to set it up properly."
 tags: [web, jekyll]

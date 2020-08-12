@@ -1,5 +1,7 @@
 ---
 layout: post
+lang: en
+ref: 2017-12-21-chalk-sample-post-with-all-elements
 title: "Chalk sample post with all elements"
 description: "Have a look at all the predesigned elements you can use in Chalk."
 thumb_image: "documentation/sample-image.jpg"
