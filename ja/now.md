@@ -1,18 +1,16 @@
 ---
-layout: page
+layout: now
 lang: ja
 ref: now
-title: "What I’m doing now"
-description: "What I’m doing now"
+title: "今やっていること"
+description: "今やっていること"
 date: 2020-08-13 00:57:00 +0900
 ---
-* Studying on a trailmix named Sharing and Visibility Architect Journey.
-* Preparing the exam of IT Passport.
-* Using the code which I used for the first personal website to rebuild this static blog with Github page. Trying to make it cooler and bigger.
-* Trying to figure out what is the best way to communicate with my parents and friends after an almost half a year disconnection.
+* Trailmix を勉強している：[Sharing and Visibility Architect Journey](https://trailhead.salesforce.com/users/strailhead/trailmixes/architect-sharing-and-visibility)。
+* ITパスポート試験を準備中。
+* 初めて作った個人サイトのコードを再利用して Github ページでこの静的ブログを作っている。もっと大きく、かっこいいサイトを作りたい。
+* 半年くらいに家族、友たちと連絡していなかった。その状態からどう解放できるか悩んている。
 
 
-* [x]  ~~Learning to use Revealjs to create PPTs.~~
-* [x]  ~~Watching _It's OK to not be OK_.~~
-
-{% include last-updated.html %}
+* ~~RevealjsでPPTを作るのを勉強中~~
+* ~~_サイコだけど大丈夫_ を見ている.~~
