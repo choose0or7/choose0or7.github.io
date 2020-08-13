@@ -1,31 +1,6 @@
 <nav class="header-nav {% if site.scrollappear_enabled %}scrollappear{% endif %}">
   {% include navigation-item.html menu="home" %}
   <a href="{{ url }}" class="header-logo" title="{{ site.data.translation[page.lang].home.title }}"></a>
-
-  <ul class="header-links">
-    {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' | reverse %}
-    {% for post in posts %}
-      {% if post.lang != page.lang %}
-      <li>
-        <a href="{{ post.url }}" class="{{ post.lang }}" title="{{ site.data.translation[page.lang][post.lang].title }}">
-          <span>{{ site.data.translation[page.lang][post.lang].label }}</span>
-        </a>
-      </li>
-      {% endif %}
-    {% endfor %}
-    
-    {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' | reverse %}
-    {% for item in pages %}
-      {% if item.lang != page.lang %}
-      <li>
-        <a href="{{ item.url }}" class="{{ item.lang }}" title="{{ site.data.translation[page.lang][item.lang].title }}">
-          <span>{{ site.data.translation[page.lang][item.lang].label }}</span>
-        </a>
-      </li>
-      {% endif %}
-    {% endfor %}
-  </ul>
-
   <ul class="header-links">
     
     {% if site.now_enabled == true %}
@@ -220,6 +195,26 @@
         </a>
       </li>
     {% endif %}
+    {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' | reverse %}
+    {% for post in posts %}
+      {% if post.lang != page.lang %}
+      <li>
+        <a href="{{ post.url }}" class="{{ post.lang }}" title="{{ site.data.translation[page.lang][post.lang].title }}">
+          <span>{{ site.data.translation[page.lang][post.lang].label }}</span>
+        </a>
+      </li>
+      {% endif %}
+    {% endfor %}
+    {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' | reverse %}
+    {% for item in pages %}
+      {% if item.lang != page.lang %}
+      <li>
+        <a href="{{ item.url }}" class="{{ item.lang }}" title="{{ site.data.translation[page.lang][item.lang].title }}">
+          <span>{{ site.data.translation[page.lang][item.lang].label }}</span>
+        </a>
+      </li>
+      {% endif %}
+    {% endfor %}
   </ul>
 </nav>
 

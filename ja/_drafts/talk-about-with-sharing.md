@@ -1,5 +1,6 @@
 ---
 layout: post
+ref: talk-about-with-sharing
 title: "with sharing についてちょっと深堀りしようか"
 description: ""
 tags: [Salesforce, security]

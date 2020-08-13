@@ -1,5 +1,6 @@
 ---
 layout: post
+ref: salesforce security sharing
 title: "Salesforce 開発にセキュリティ脆弱性対策"
 description: "データ表示に関連したプログラミングのリスクを最小限にする"
 tags: [Salesforce, security]
