@@ -7,3 +7,5 @@ date: 2020-08-13 23:41:00 +0900
 tags: [jekyll]
 ---
 
+[Making Jekyll multilingual](https://www.sylvaindurand.org/making-jekyll-multilingual/)
+[How to make Jekyll multilingual](https://medium.com/@desfocado/how-to-make-jekyll-multilingual-c13e74c18f1c)
