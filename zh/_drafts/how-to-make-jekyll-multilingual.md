@@ -8,4 +8,29 @@ tags: [jekyll]
 ---
 
 [Making Jekyll multilingual](https://www.sylvaindurand.org/making-jekyll-multilingual/)
+
 [How to make Jekyll multilingual](https://medium.com/@desfocado/how-to-make-jekyll-multilingual-c13e74c18f1c)
+
+{% highlight markdown %}
+---
+title: Hello world!
+lang: en
+ref: hello
+---
+{% endhighlight %}
+
+{% highlight markdown %}
+---
+title: 你好，世界!
+lang: zh
+ref: hello
+---
+{% endhighlight %}
+
+{% highlight markdown %}
+---
+title: こんにちは，世界!
+lang: ja
+ref: hello
+---
+{% endhighlight %}

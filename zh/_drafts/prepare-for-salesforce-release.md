@@ -8,4 +8,5 @@ tags: [salesforce]
 ---
 
 [これを知って準備をしよう!!Salesforce メジャーリリースでおさえるべきポイント](https://note.com/09198301/n/n15622717851f)
+
 [3 Best Practices to Prepare for Salesforce Releases](https://admin.salesforce.com/blog/2020/3-best-practices-to-prepare-for-salesforce-releases)
