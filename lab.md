@@ -4,5 +4,12 @@ lang: en
 ref: lab
 title: My Lab
 ---
-* [3D Solar System]({{ 'lab/3D-CSS-Solar-System-master/' | relative_url }}) - Solar System data visualisation done in HTML/CSS and a bit of Javascript by [Julian Garnier](https://github.com/juliangarnier)
-* [Revealjs presentation demo]({{ 'lab/revealjs-presentation-demo/' | relative_url }})
+<main class="page-content">
+  {% include card.html title = "3D Solar System"
+                       copy="Solar System data visualisation done in HTML/CSS and a bit of Javascript by <a href='https://github.com/juliangarnier'>Julian Garnier</a>" 
+                       url="lab/3D-CSS-Solar-System-master/" %}
+
+  {% include card.html title = "reveal.js Slide Demo"
+                       copy="<a href='https://revealjs.com/'>reveal.js</a> enables you to create beautiful interactive slide decks using HTML" 
+                       url="lab/revealjs-presentation-demo/" %}
+</main>
