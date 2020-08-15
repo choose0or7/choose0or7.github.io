@@ -2,7 +2,7 @@
 layout: now
 lang: zh
 ref: now
-title: "我最近在做的事"
+title: "当下"
 description: "人生天地之间，若白驹之过隙，忽然而已。"
 date: 2020-08-13 00:57:00 +0900
 ---

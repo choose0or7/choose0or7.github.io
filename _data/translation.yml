@@ -20,6 +20,8 @@ en:
   lab:
     url: /lab
     title: Lab
+  view:
+    label: view
 zh:
   en:
     label: en
@@ -35,13 +37,15 @@ zh:
     title: choose0or7
   now:
     url: /zh/now
-    title: 执迷
+    title: 当下
   about:
     url: /zh/about
     title: 说我
   lab:
     url: zh/lab
     title: 闲情偶寄
+  view:
+    label: 查看
 ja:
   en:
     label: en
@@ -64,3 +68,5 @@ ja:
   lab:
     url: ja/lab
     title: ラボ
+  view:
+    label: 開く
