@@ -2,7 +2,7 @@
 layout: page
 lang: zh
 ref: about
-title: "青云不坠 少年不改"
+title: "青云不坠 少年未改"
 description: "An Salesforce consultant and developer since 2013, a blogger since recently, alive since 1991."
 ---
 <!-- <img src="{% asset 'about.png' @path %}" alt="choose0or7 logo" /> -->
