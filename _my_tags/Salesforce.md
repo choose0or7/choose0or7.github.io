@@ -1,6 +1,6 @@
 ---
-ref: Salesforce
+ref: salesforce
 lang: en
-slug: Salesforce
+slug: salesforce
 name: Salesforce
 ---

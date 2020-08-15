@@ -1,8 +1,9 @@
 ---
 layout: post
+ref: salesforce security sharing
 title: "Salesforce 開発にセキュリティ脆弱性対策"
 description: "データ表示に関連したプログラミングのリスクを最小限にする"
-tags: [Salesforce, security]
+tags: [salesforce, security]
 ---
 
 Salesforce TA 資格を取るため、最近では Sharing and Visibility Designer の資格試験の勉強をしています。ここでは簡単には実際 Salesforce 開発やっている人に対し、大玉課題の一つーーセキュリティ脆弱性対策ーーについて、自分の経験を共有したいです。
