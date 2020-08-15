@@ -6,6 +6,7 @@ title: "What I’m doing now"
 description: "What I’m doing now"
 date: 2020-08-13 00:57:00 +0900
 ---
+<!-- TODO: Update the translation of now -->
 * Studying on a trailmix named [Sharing and Visibility Architect Journey](https://trailhead.salesforce.com/users/strailhead/trailmixes/architect-sharing-and-visibility).
 * Preparing the exam of IT Passport.
 * Using the code which I used for the first personal website to rebuild this static blog with Github page. Trying to make it cooler and bigger.
