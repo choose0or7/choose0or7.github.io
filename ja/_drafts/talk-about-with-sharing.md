@@ -3,7 +3,7 @@ layout: post
 ref: talk-about-with-sharing
 title: "with sharing についてちょっと深堀りしようか"
 description: ""
-tags: [Salesforce, security]
+tags: [salesforce, security]
 ---
 
 最近は Sharing and Visibility Designer 資格試験の準備中で、
