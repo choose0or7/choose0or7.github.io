@@ -2,7 +2,7 @@
 layout: post
 ref: water-is-supposed-to-beat-fire
 title: 杯水车薪
-description: 今之为仁者，犹以一杯水，救一车薪之火也
+description: 今之为仁者，犹以一杯水，救一车薪之火也。
 date: 2020-08-16 00:31:00 +0900
 tags: [thoughts]
 ---
