@@ -140,10 +140,13 @@ $bp-lg: 800px;
 }
 
 .copy {
-  font-family: var(--font-serif);
+  // font-family: var(--font-serif);
   font-size: 1.125rem;
-  font-style: italic;
+  // font-style: italic;
   line-height: 1.35;
+  a {
+    color: whitesmoke;
+  }
 }
 
 .btn {
