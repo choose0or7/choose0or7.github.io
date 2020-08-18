@@ -10,6 +10,6 @@ title: 闲情偶寄
                        url="lab/3D-CSS-Solar-System-master/" %}
 
   {% include card.html title = "reveal.js 幻灯片演示"
-                       copy="使用<a href='https://revealjs.com/'>reveal.js</a> 实现基于 HTML 的精美可交互的幻灯片" 
+                       copy="使用 <a href='https://revealjs.com/'>reveal.js</a> 实现基于 HTML 的精美可交互的幻灯片" 
                        url="lab/revealjs-presentation-demo/" %}
 </main>
