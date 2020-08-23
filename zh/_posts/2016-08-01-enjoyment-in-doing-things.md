@@ -3,6 +3,7 @@ layout: post
 lang: zh
 ref: 2016-08-01-enjoyment-in-doing-things
 title: "做事的乐趣"
+description: 这两周一直在搭建这个自己的个人网站，现在有了雏形，自己翻来覆去得看，怎么看都觉得很满足。当然还有一些问题需要解决。
 date: 2016-08-01 16:26:07 +0900
 tags: [thoughts]
 category: blog
