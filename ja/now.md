@@ -4,7 +4,7 @@ lang: ja
 ref: now
 title: "今やっていること"
 description: "今やっていること"
-date: 2020-08-18 22:23:00 +0900
+date: 2020-10-25 08:59:00 +0900
 ---
 * 認定 Data Architecture and Management デザイナー資格の勉強。
 * 認定 Marketing Cloud Consultant 資格の勉強。
