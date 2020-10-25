@@ -6,14 +6,13 @@ title: "今やっていること"
 description: "今やっていること"
 date: 2020-08-18 22:23:00 +0900
 ---
-* Trailmix を勉強している：[Sharing and Visibility Architect Journey](https://trailhead.salesforce.com/users/strailhead/trailmixes/architect-sharing-and-visibility)。
-* ITパスポート試験を準備中。
-* 週に最低1言語でブラグを1つ書く。
-* 半年くらいに家族、友たちと連絡していなかった。その状態からどう解放できるか悩んている。
-* RevealjsでPPTを作るのを勉強中。
-* バラエティ番組を見る：[*乘风破浪的姐姐*](https://www.mgtv.com/h/338497.html)。
-* 読書：難しいことはわかりませんが、お金の増やしかたを教えて下さい！
+* 認定 Data Architecture and Management デザイナー資格の勉強。
+* 認定 Marketing Cloud Consultant 資格の勉強。
 
+* ~~Trailmix を勉強している：[Sharing and Visibility Architect Journey](https://trailhead.salesforce.com/users/strailhead/trailmixes/architect-sharing-and-visibility)。~~
+* ~~ITパスポート試験を準備中。~~
+* ~~半年くらいに家族、友たちと連絡していなかった。その状態からどう解放できるか悩んている。~~
+* ~~バラエティ番組を見る：[*乘风破浪的姐姐*](https://www.mgtv.com/h/338497.html)。~~
 * ~~初めて作った個人サイトのコードを再利用して Github ページでこの静的ブログを作っている。もっと大きく、かっこいいサイトを作りたい。~~
   * [x] ~~ミニマムのテーマを更新~~
   * [x] ~~多言語モードを更新~~
