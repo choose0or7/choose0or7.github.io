@@ -1,21 +1,90 @@
----
-ref: feed
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom" xmlns:dc="https://purl.org/dc/elements/1.1/">
   <channel>
-    <title>{{ site.name | xml_escape }}</title>
-    <description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
-    <link>{{ site.url }}</link>
-    <atom:link href="{{ page.path | absolute_url }}" rel="self" type="application/rss+xml" />
-    {% for post in site.posts limit:10 %}
+    <title>choose0or7</title>
+    <description></description>
+    <link>https://choose0or7.github.io</link>
+    <atom:link href="https://choose0or7.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.description | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | absolute_url }}</link>
-        <guid isPermaLink="true">{{ post.url | absolute_url }}</guid>
+        <title>我想变成一片雪</title>
+        <description>如果我能变化 我想变成一片雪  旋转着 飞舞着</description>
+        <pubDate>Tue, 16 Mar 2021 15:18:00 +0900</pubDate>
+        <link>https://choose0or7.github.io/posts/zh/blog/if-i-can-change</link>
+        <guid isPermaLink="true">https://choose0or7.github.io/posts/zh/blog/if-i-can-change</guid>
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>起床记</title>
+        <description></description>
+        <pubDate>Sat, 24 Oct 2020 07:30:00 +0900</pubDate>
+        <link>https://choose0or7.github.io/posts/zh/blog/get-up</link>
+        <guid isPermaLink="true">https://choose0or7.github.io/posts/zh/blog/get-up</guid>
+      </item>
+    
+      <item>
+        <title>三种梦</title>
+        <description></description>
+        <pubDate>Sat, 22 Aug 2020 19:02:00 +0900</pubDate>
+        <link>https://choose0or7.github.io/posts/zh/3-dreams-falling</link>
+        <guid isPermaLink="true">https://choose0or7.github.io/posts/zh/3-dreams-falling</guid>
+      </item>
+    
+      <item>
+        <title>杯水车薪</title>
+        <description>今之为仁者，犹以一杯水，救一车薪之火也。</description>
+        <pubDate>Sun, 16 Aug 2020 00:31:00 +0900</pubDate>
+        <link>https://choose0or7.github.io/posts/zh/water-is-supposed-to-beat-fire</link>
+        <guid isPermaLink="true">https://choose0or7.github.io/posts/zh/water-is-supposed-to-beat-fire</guid>
+      </item>
+    
+      <item>
+        <title>Trailhead 翻訳の戸惑</title>
+        <description>Trailheadで勉強する時、日本で仕事している私は大体日本語を選択してやっていました。しかし、日本語翻訳に戸惑うことはよくあります。ここでは、その中の一つの例を説明します。</description>
+        <pubDate>Sat, 15 Aug 2020 20:41:00 +0900</pubDate>
+        <link>https://choose0or7.github.io/posts/ja/translation-mistakes-of-trailhead</link>
+        <guid isPermaLink="true">https://choose0or7.github.io/posts/ja/translation-mistakes-of-trailhead</guid>
+      </item>
+    
+      <item>
+        <title>我想在这个网站写些什么</title>
+        <description></description>
+        <pubDate>Mon, 10 Aug 2020 23:54:00 +0900</pubDate>
+        <link>https://choose0or7.github.io/posts/zh/what-i-want-to-write-in-this-site</link>
+        <guid isPermaLink="true">https://choose0or7.github.io/posts/zh/what-i-want-to-write-in-this-site</guid>
+      </item>
+    
+      <item>
+        <title>What I want to write in this site</title>
+        <description>Life is continuous learing and there are always more surprises waiting for you.</description>
+        <pubDate>Mon, 10 Aug 2020 23:54:00 +0900</pubDate>
+        <link>https://choose0or7.github.io/posts/what-i-want-to-write-in-this-site</link>
+        <guid isPermaLink="true">https://choose0or7.github.io/posts/what-i-want-to-write-in-this-site</guid>
+      </item>
+    
+      <item>
+        <title>Markdown で文字と画像を中央寄せ</title>
+        <description>githubpages を利用しているなら、これは一番簡単な書き方！</description>
+        <pubDate>Sat, 08 Aug 2020 00:00:00 +0900</pubDate>
+        <link>https://choose0or7.github.io/posts/ja/center-text-and-image-in-markdown</link>
+        <guid isPermaLink="true">https://choose0or7.github.io/posts/ja/center-text-and-image-in-markdown</guid>
+      </item>
+    
+      <item>
+        <title>你好，世界!</title>
+        <description></description>
+        <pubDate>Wed, 05 Aug 2020 16:12:07 +0900</pubDate>
+        <link>https://choose0or7.github.io/posts/zh/hello</link>
+        <guid isPermaLink="true">https://choose0or7.github.io/posts/zh/hello</guid>
+      </item>
+    
+      <item>
+        <title>こんにちは，世界!</title>
+        <description></description>
+        <pubDate>Wed, 05 Aug 2020 16:12:07 +0900</pubDate>
+        <link>https://choose0or7.github.io/posts/ja/hello</link>
+        <guid isPermaLink="true">https://choose0or7.github.io/posts/ja/hello</guid>
+      </item>
+    
   </channel>
 </rss>

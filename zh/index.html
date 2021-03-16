@@ -1,8 +1,522 @@
----
-layout: default
-lang: zh
-ref: home
-title: "写"
-description: "choose0or7的博客"
----
-{% include homepage.html %}
+<!doctype html>
+<html lang="zh_CN">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>choose0or7 | 写</title>
+  <meta name="description" content="choose0or7的博客">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="写">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://choose0or7.github.io/zh/">
+  <meta property="og:description" content="choose0or7的博客">
+  <meta property="og:site_name" content="choose0or7">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:url" content="https://choose0or7.github.io/zh/">
+  <meta name="twitter:title" content="写">
+  <meta name="twitter:description" content="choose0or7的博客">
+
+  
+    <meta property="og:image" content="https://choose0or7.github.io/assets/og-image-aac979ef51629c2e2d5d465267f0bf20ca1788dd834758b9aeacf1ceb7a2b2a8.jp2">
+    <meta name="twitter:image" content="https://choose0or7.github.io/assets/og-image-aac979ef51629c2e2d5d465267f0bf20ca1788dd834758b9aeacf1ceb7a2b2a8.jp2">
+  
+
+  <link href="https://choose0or7.github.io/feed.xml" type="application/rss+xml" rel="alternate" title="choose0or7 Last 10 blog posts" />
+
+  
+  
+  
+  
+    <link rel="alternate" hreflang="en" href="/" />
+  
+    <link rel="alternate" hreflang="ja" href="/ja/" />
+  
+    <link rel="alternate" hreflang="zh" href="/zh/" />
+  
+
+  
+
+  
+
+    
+      <link rel="icon" type="image/x-icon" href="/assets/favicon-light-8bc7d61d1e548f678539f8ced7efd87362d75cb99c8a4e0f7782c7e8307da3f8.ico">
+      <link rel="apple-touch-icon" href="/assets/apple-touch-icon-light-3e78897f8cf55684d4cdcd395d80f13b44354e29cd2f3d47b0f34b042e8c842b.png">
+      <link rel="stylesheet" type="text/css" title="light" id="light" href="/assets/light-c368fce331074719485c7b40ebc848b264c8003c21a4447fabbd22c4d2b6c932.css">
+      <link rel="stylesheet" type="text/css" title="dark" id="dark" href="/assets/dark-d6e5cbbece4a8b1066fe0faf17f167e3d0d97ec26f109deee588cb71dcaed4dc.css" disabled="true">
+    
+
+  
+
+  
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-81663561-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-81663561-1');
+    </script>
+  
+
+  <!-- comments for resources to be generate -->
+  <!-- <img src="/assets/favicon-light-8bc7d61d1e548f678539f8ced7efd87362d75cb99c8a4e0f7782c7e8307da3f8.ico" />
+  <img src="/assets/favicon-dark-9ee4da1872bb115170536c830bc5a2b61710fa3b21b015a2415defcb1e38d300.ico" />
+  <img src="/assets/apple-touch-icon-light-3e78897f8cf55684d4cdcd395d80f13b44354e29cd2f3d47b0f34b042e8c842b.png" />
+  <img src="/assets/apple-touch-icon-dark-f9983ddca318193c58e359d67f5a17f763568853343d6d990de04e092f9ca769.png" />
+  <img src="/assets/navlogo-light-17c773e89fa806ce966b4f669588722bebb4999a13bbfc76669a961768c71070.png" />
+  <img src="/assets/navlogo-dark-ea6034b53443167e68da14ee06295a183aa9ad9d2e95371d0d73ef2d60eb42da.png" /> -->
+</head>
+
+<body>
+  <main>
+    <div class="grid grid-centered">
+      <div class="grid-cell">
+        <nav class="header-nav scrollappear">
+  
+  <a href="/zh/" class="header-logo" title="choose0or7"></a>
+  <ul class="header-links">
+    
+    
+      <li>
+        
+        <a href="/zh/now" title="当下">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-now">
+  <use href="/assets/now-e658c47b44697acd2a7b14f064c7c1043a5268158c7a00521a881c245ca1ee8e.svg#icon-now" xlink:href="/assets/now-e658c47b44697acd2a7b14f064c7c1043a5268158c7a00521a881c245ca1ee8e.svg#icon-now"></use>
+</svg>
+
+        </a>
+      </li>
+    
+    
+      <li>
+        
+        <a href="/zh/about" title="说我">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-about">
+  <use href="/assets/about-ab4928d09cef6e09136b8d40637999db4f9575f927c33156e7f3e37d450e5df1.svg#icon-about" xlink:href="/assets/about-ab4928d09cef6e09136b8d40637999db4f9575f927c33156e7f3e37d450e5df1.svg#icon-about"></use>
+</svg>
+
+        </a>
+      </li>
+    
+    
+      <li>
+        
+        <a href="/zh/lab" title="闲情偶寄">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-lab">
+  <use href="/assets/lab-6ff10b785c4e4e1bce647d7ea0dc8adc42dfe9fa521b75aaa3465d23d2a98561.svg#icon-lab" xlink:href="/assets/lab-6ff10b785c4e4e1bce647d7ea0dc8adc42dfe9fa521b75aaa3465d23d2a98561.svg#icon-lab"></use>
+</svg>
+
+        </a>
+      </li>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      <li>
+        <a onclick="toggle()" title="Toggle Theme">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-theme">
+  <use href="/assets/theme-610197c56844c5ba34608b2018c4cc3b79f8833e2efc7a99bcb5589f1d3cfd7b.svg#icon-theme" xlink:href="/assets/theme-610197c56844c5ba34608b2018c4cc3b79f8833e2efc7a99bcb5589f1d3cfd7b.svg#icon-theme"></use>
+</svg>
+
+        </a>
+      </li>
+    
+    
+    
+    
+    
+      
+    
+      
+      <li>
+        <a href="/ja/" class="ja" title="日语">
+          <span>日</span>
+        </a>
+      </li>
+      
+    
+      
+      <li>
+        <a href="/" class="en" title="英语">
+          <span>en</span>
+        </a>
+      </li>
+      
+    
+  </ul>
+</nav>
+
+
+
+        <ul class="article-list">
+    
+    
+      <li class="article-list-item scrollappear">
+        <a href="/posts/zh/blog/if-i-can-change" title="我想变成一片雪">
+          <h5>
+            我想变成一片雪
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-721da8a27523874a44ceeadb3e43c9b8a2cac1b7fc29a8bf5690870450b051e8.svg#icon-arrow-right" xlink:href="/assets/arrow-right-721da8a27523874a44ceeadb3e43c9b8a2cac1b7fc29a8bf5690870450b051e8.svg#icon-arrow-right"></use>
+</svg>
+
+          </h5>
+        </a>
+        <p>
+          
+            <p>如果我能变化 我想变成一片雪  旋转着 飞舞着</p>
+  
+          
+        </p>
+        <div class="article-list-footer">
+  
+    <span class="article-list-date">
+      
+        2021年3月16日
+      
+    </span>
+  
+
+  
+
+  
+
+  
+    
+      <span class="article-list-divider">-</span>
+      <div class="article-list-tags">
+        
+          
+          <a href="/tag/thoughts" title="See all posts with tag 'Thoughts'">Thoughts</a>
+        
+      </div>
+    
+  
+</div>
+      </li>
+    
+      <li class="article-list-item scrollappear">
+        <a href="/posts/zh/blog/get-up" title="起床记">
+          <h5>
+            起床记
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-721da8a27523874a44ceeadb3e43c9b8a2cac1b7fc29a8bf5690870450b051e8.svg#icon-arrow-right" xlink:href="/assets/arrow-right-721da8a27523874a44ceeadb3e43c9b8a2cac1b7fc29a8bf5690870450b051e8.svg#icon-arrow-right"></use>
+</svg>
+
+          </h5>
+        </a>
+        <p>
+          
+            天高云阔霜初降，
+
+秋阳尚暖草未黄。
+
+寒鸦几点不止语，
+
+周末惫懒难起床。
+
+          
+        </p>
+        <div class="article-list-footer">
+  
+    <span class="article-list-date">
+      
+        2020年10月24日
+      
+    </span>
+  
+
+  
+
+  
+
+  
+    
+      <span class="article-list-divider">-</span>
+      <div class="article-list-tags">
+        
+          
+          <a href="/tag/thoughts" title="See all posts with tag 'Thoughts'">Thoughts</a>
+        
+      </div>
+    
+  
+</div>
+      </li>
+    
+      <li class="article-list-item scrollappear">
+        <a href="/posts/zh/3-dreams-falling" title="三种梦">
+          <h5>
+            三种梦
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-721da8a27523874a44ceeadb3e43c9b8a2cac1b7fc29a8bf5690870450b051e8.svg#icon-arrow-right" xlink:href="/assets/arrow-right-721da8a27523874a44ceeadb3e43c9b8a2cac1b7fc29a8bf5690870450b051e8.svg#icon-arrow-right"></use>
+</svg>
+
+          </h5>
+        </a>
+        <p>
+          
+            人大多数时候做的梦，醒来可能就会忘记。我常常是这样，醒来一瞬间非常清晰得感觉到自己刚刚在做梦，但是猛地一醒，梦的内容是多半怎么也想不起来。
+
+
+          
+        </p>
+        <div class="article-list-footer">
+  
+    <span class="article-list-date">
+      
+        2020年8月22日
+      
+    </span>
+  
+
+  
+
+  
+
+  
+    
+      <span class="article-list-divider">-</span>
+      <div class="article-list-tags">
+        
+          
+          <a href="/tag/thoughts" title="See all posts with tag 'Thoughts'">Thoughts</a>
+        
+      </div>
+    
+  
+</div>
+      </li>
+    
+      <li class="article-list-item scrollappear">
+        <a href="/posts/zh/water-is-supposed-to-beat-fire" title="杯水车薪">
+          <h5>
+            杯水车薪
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-721da8a27523874a44ceeadb3e43c9b8a2cac1b7fc29a8bf5690870450b051e8.svg#icon-arrow-right" xlink:href="/assets/arrow-right-721da8a27523874a44ceeadb3e43c9b8a2cac1b7fc29a8bf5690870450b051e8.svg#icon-arrow-right"></use>
+</svg>
+
+          </h5>
+        </a>
+        <p>
+          
+            <p>今之为仁者，犹以一杯水，救一车薪之火也。</p>
+  
+          
+        </p>
+        <div class="article-list-footer">
+  
+    <span class="article-list-date">
+      
+        2020年8月16日
+      
+    </span>
+  
+
+  
+
+  
+
+  
+    
+      <span class="article-list-divider">-</span>
+      <div class="article-list-tags">
+        
+          
+          <a href="/tag/thoughts" title="See all posts with tag 'Thoughts'">Thoughts</a>
+        
+      </div>
+    
+  
+</div>
+      </li>
+    
+      <li class="article-list-item scrollappear">
+        <a href="/posts/zh/what-i-want-to-write-in-this-site" title="我想在这个网站写些什么">
+          <h5>
+            我想在这个网站写些什么
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-721da8a27523874a44ceeadb3e43c9b8a2cac1b7fc29a8bf5690870450b051e8.svg#icon-arrow-right" xlink:href="/assets/arrow-right-721da8a27523874a44ceeadb3e43c9b8a2cac1b7fc29a8bf5690870450b051e8.svg#icon-arrow-right"></use>
+</svg>
+
+          </h5>
+        </a>
+        <p>
+          
+            我想在这里写什么，也意味着你将在这里看到些什么。过去我常常在博客里写些很偏情绪的东西。之后大概我的朋友可能会读一读它们并善良地给我留下评论。只是最终这类的文章都拥有很短暂的实际生命，绝对不会有人在两周之后再去回顾它们。而我就不想在这个网站里重蹈覆辙了。
+
+
+          
+        </p>
+        <div class="article-list-footer">
+  
+    <span class="article-list-date">
+      
+        2020年8月10日
+      
+    </span>
+  
+
+  
+
+  
+
+  
+    
+      <span class="article-list-divider">-</span>
+      <div class="article-list-tags">
+        
+          
+          <a href="/tag/thoughts" title="See all posts with tag 'Thoughts'">Thoughts</a>
+        
+      </div>
+    
+  
+</div>
+      </li>
+    
+      <li class="article-list-item scrollappear">
+        <a href="/posts/zh/hello" title="你好，世界!">
+          <h5>
+            你好，世界!
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-721da8a27523874a44ceeadb3e43c9b8a2cac1b7fc29a8bf5690870450b051e8.svg#icon-arrow-right" xlink:href="/assets/arrow-right-721da8a27523874a44ceeadb3e43c9b8a2cac1b7fc29a8bf5690870450b051e8.svg#icon-arrow-right"></use>
+</svg>
+
+          </h5>
+        </a>
+        <p>
+          
+            你好，世界！
+
+          
+        </p>
+        <div class="article-list-footer">
+  
+    <span class="article-list-date">
+      
+        2020年8月5日
+      
+    </span>
+  
+
+  
+
+  
+
+  
+    
+  
+</div>
+      </li>
+    
+      <li class="article-list-item scrollappear">
+        <a href="/posts/zh/blog/enjoyment-in-doing-things" title="做事的乐趣">
+          <h5>
+            做事的乐趣
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon-arrow-right">
+  <use href="/assets/arrow-right-721da8a27523874a44ceeadb3e43c9b8a2cac1b7fc29a8bf5690870450b051e8.svg#icon-arrow-right" xlink:href="/assets/arrow-right-721da8a27523874a44ceeadb3e43c9b8a2cac1b7fc29a8bf5690870450b051e8.svg#icon-arrow-right"></use>
+</svg>
+
+          </h5>
+        </a>
+        <p>
+          
+            <p>这两周一直在搭建这个自己的个人网站，现在有了雏形，自己翻来覆去得看，怎么看都觉得很满足。当然还有一些问题需要解决。</p>
+  
+          
+        </p>
+        <div class="article-list-footer">
+  
+    <span class="article-list-date">
+      
+        2016年8月1日
+      
+    </span>
+  
+
+  
+
+  
+
+  
+    
+      <span class="article-list-divider">-</span>
+      <div class="article-list-tags">
+        
+          
+          <a href="/tag/thoughts" title="See all posts with tag 'Thoughts'">Thoughts</a>
+        
+      </div>
+    
+  
+</div>
+      </li>
+    
+    
+  </ul>
+
+        <footer class="footer scrollappear">
+  <!-- <span class="footer-language">
+    
+    
+    
+    
+    
+      
+    
+      
+        <a href="/ja/" class="ja" title="日语">
+          日
+        </a>
+      
+    
+      
+        <a href="/" class="en" title="英语">
+          en
+        </a>
+      
+    
+  </span> -->
+</footer>
+      </div>
+    </div>
+  </main>
+  <script src="/assets/vendor-734ddaa553ebf4e6ca703bd7c567ef4a0e43b0ba799607355e56b81e88781318.js" type="text/javascript"></script>
+
+
+  <script src="/assets/webfonts-aa0db6264b56f53df4a473e537d225772e86e99d77da95e1487ad4c659f35007.js" type="text/javascript"></script>
+
+
+
+  <script src="/assets/scrollappear-e2da8ea567e418637e31266cc5302126eaa79f62a2273739086358b589a89ee6.js" type="text/javascript"></script>
+
+
+<script src="/assets/application-cfde13ac81ddaf4351b2e739603e2baf688d0fcc9aba613fe62bbb1c7b037fb9.js" type="text/javascript"></script>
+
+
+  <script src="/assets/themetoggle-df0d3d73164dc26dffbd630182ae4d0dfa7bee6b694a2b5d565d73595b582bbf.js" type="text/javascript"></script>
+
+</body>
+</html>
