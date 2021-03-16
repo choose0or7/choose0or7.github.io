@@ -3,7 +3,7 @@ layout: post
 lang: zh
 ref: 2021-03-16-if-i-can-change
 title: "我想变成一片雪"
-date: 2020-03-16 15:18:00 +0900
+date: 2021-03-16 15:18:00 +0900
 tags: [thoughts]
 category: blog
 ---
