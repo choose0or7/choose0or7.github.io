@@ -4,9 +4,10 @@ lang: en
 ref: now
 title: "What I’m doing now"
 description: "What I’m doing now"
-date: 2020-10-25 08:59:00 +0900
+date: 2021-03-16 15:06:00 +0900
 ---
 
+* New 2021 ZYF project with my friends -- Z and F.
 * Studying to get the Certificated Data Architecture and Management Designer.
 * Studying to get the Certificated Marketing Cloud Consultant.
 
